@@ -126,9 +126,15 @@ section .faq {
 .faq ul li .question h3 {
   font-size: 15px;
   font-weight: 400;
+  transition: all ease-in-out 0.35s;
 }
 .faq ul li.active .question h3 {
   font-weight: 700;
+}
+
+.faq ul li .question h3:hover {
+  color: var(--softRed);
+  transition: all ease-in-out 0.35s;
 }
 
 .faq ul li .question svg {
@@ -144,11 +150,16 @@ section .faq {
   font-size: 12px;
   margin: 20px 0 10px 0;
   border-bottom: 0.4px ridge hsl(240, 5%, 91%);
+  transition: all ease-in-out 0.35s;
+}
+
+.faq ul li.active .answer {
+  max-height: 56px;
+  transition: all ease-in-out 0.35s;
 }
 .faq ul li .answer p {
   margin-bottom: 10px;
 }
 
-.faq ul li.active .answer {
-  max-height: 46px;
+@media screen and (max-width: 1060px) {
 }
