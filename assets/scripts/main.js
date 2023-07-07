@@ -1,7 +1,7 @@
-const questions = document.querySelector('h3');
+const faqs = document.querySelectorAll('li');
 
-function questToggle() {
-  questions.classList.toggle(active);
-}
-
-questions.addEventListener('click', questToggle);
+faqs.forEach((faqs) => {
+  faqs.addEventListener('click', () => {
+    faqs.classList.toggle('active');
+  });
+});
