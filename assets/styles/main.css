@@ -128,11 +128,9 @@ section .faq {
   font-weight: 400;
 }
 .faq ul li.active .question h3 {
-  color: red;
-}
-.faq ul li .question.active h3 {
   font-weight: 700;
 }
+
 .faq ul li .question svg {
   transition: all ease-in-out 0.35s;
 }
