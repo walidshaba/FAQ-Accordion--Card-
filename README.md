@@ -25,7 +25,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Here](https://github.com/walidshaba/FAQ-Accordion--Card-.git)
-- Live Site URL: [Here](https://musashaba-1490d.web.app/)
+- Live Site URL: [Here](https://faq-accordion-card-gamma-nine.vercel.app/)
 
 ## My process
 
